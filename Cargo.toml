@@ -35,8 +35,7 @@ redis_tokio = [
     "redis_store",
     "async",
     "redis/aio",
-    "redis/tokio-comp",
-    "redis/tls"
+    "redis/tokio-comp"
 ]
 redis_tokio_native-tls = ["redis/tokio-native-tls-comp"]
 redis_tokio_rustls = ["redis/tokio-rustls-comp"]
